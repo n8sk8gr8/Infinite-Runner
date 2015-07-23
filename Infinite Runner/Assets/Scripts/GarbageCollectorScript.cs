@@ -7,7 +7,7 @@ public class GarbageCollectorScript : MonoBehaviour {
 	{
 		if(other.tag == "Player")
 		{
-			Debug.Break();
+			Application.LoadLevel (1);
 			return;
 		}
 
